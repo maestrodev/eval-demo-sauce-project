@@ -123,12 +123,12 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     }
 
     /**
-     * Runs a simple test verifying the title of the amazon.com homepage.
+     * Runs a simple test verifying the title of the application homepage.
      * @throws Exception
      */
     @Test
-    public void amazon() throws Exception {
-        driver.get("http://www.amazon.com/");
+    public void homePage() throws Exception {
+        driver.get(System.getProperty("appUrl"));
         assertEquals("Sample \"Hello, World\" Application", driver.getTitle());
     }
 
