@@ -18,6 +18,7 @@ import com.saucelabs.junit.Parallelized;
 import com.saucelabs.junit.ConcurrentParameterized;
 import com.saucelabs.junit.SauceOnDemandTestWatcher;
 
+import java.io.File;
 import java.net.URL;
 import java.util.LinkedList;
 
